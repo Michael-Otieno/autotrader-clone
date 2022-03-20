@@ -1,0 +1,237 @@
+
+.slider{
+    position: relative;
+    /* margin-top: 20px; */
+
+}
+.slider a{
+  margin-top: 60px;
+  text-decoration: none;
+  position: relative;
+}
+
+.slider span{
+  position: absolute;
+  top: 3%;
+  margin-left: 5px;
+  background-color: gray;
+  color: white;
+  font-size: .8rem;
+  padding: 1px 9px;
+}
+.slider img{
+  width: 100%;
+  height: 500px;
+}
+
+.slider .prev_arrow{
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  z-index: 10;
+  color: #fff;
+  width: 24px;
+  height: 50px;
+  background: #adb5bd;
+  border-radius: 15%;
+  text-align: center;
+  line-height: 49px;
+  display: inline-block;
+  cursor: pointer;
+}
+.slider .next_arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 4%;
+    color: #fff;
+    width: 24px;
+    height: 50px;
+    background: #adb5bd;
+    border-radius: 15%;
+    text-align: center;
+    line-height: 49px;
+    display: inline-block;
+    cursor: pointer;
+}
+.slider .prev_arrow:hover,
+.slider .next_arrow:hover{
+  background-color: #816da7;
+}
+
+.item-slick.slick-slide.slick-current.slick-active{
+	outline: none!important;
+  border: 4px solid blue;
+}
+
+.slider-nav{
+   position: relative;
+   outline: none;
+}
+
+.slider-nav .prev_arrow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: #fff;
+  width: 24px;
+  height: 82px;
+  background:  rgba(5, 52, 255, 0.6);
+  border-radius: 0px 0px 0px 4px;
+  text-align: center;
+  line-height: 80px;
+  display: inline-block;
+  cursor: pointer;
+}
+.slider-nav .next_arrow{
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  color: #fff;
+  width: 24px;
+  height: 78px;
+  background: rgba(5, 52, 255, 0.6);
+  border-radius: 0px 0px 4px 0px;
+  text-align: center;
+  line-height: 80px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider-nav .item-slick{
+    max-width: 240px;
+		outline: none!important;
+		cursor: pointer;
+}
+.slider-nav .item-slick img{
+  height: 78px;
+  width: 100%;
+}
+
+/* fancybox styles */
+.myFancyBox .fancybox-thumbs {
+  top: auto;
+  width: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 95px;
+  padding: 10px 10px 5px 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.myFancyBox .fancybox-show-thumbs .fancybox-inner {
+  right: 0;
+  bottom: 95px;
+}
+/* fancybox style end */
+
+.detail-header{
+  color: rgb(6, 160, 157);
+}
+.detail-name{
+  color: rgb(49, 60, 83);
+}
+.detail-model{
+  margin: calc(4px) 0px calc(16px);
+  color: rgb(49, 60, 83);
+}
+.detail-price{
+  color: rgb(218, 25, 25);
+  line-height: 1.25;
+  font-family: ATVFabriga, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.detail-save{
+  color: rgb(6, 160, 157);
+  line-height: 1.25;
+
+}
+
+.detail-hr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1 !important;
+  color: rgb(42, 101, 186);
+
+}
+.detail-hr:hover{
+  color: rgb(6, 160, 157);
+}
+.detail-messageBtn{
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+  padding: 8px 158px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.25s ease-in-out 0s;
+  background: rgb(5, 52, 255);
+  color: rgb(255, 255, 255);
+}
+.detail-messageBtn:hover{
+  color: rgb(255, 255, 255);
+  background: rgb(60, 92, 233);
+
+}
+
+.detail-car_price{
+  color: rgb(102, 102, 102);;
+}
+.grey-bg{
+  width: 100%;
+  height: auto;
+  background: rgb(247, 247, 245);
+  padding: 20px;
+  color: rgb(42, 101, 186);
+  margin-bottom: 20px;
+}
+.logo{
+  width: 78%;
+  height: 40px;
+
+}
+
+.company-name{
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: 1.2;
+  color:  blue;
+  margin-top:10px;
+}
+.review-stars{
+  color: orange;
+}
+.review-num{
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+.review-people{
+  font-size: 14px;
+  font-weight: 300;
+}
+.phone-number{
+  font-size: .9em;
+  line-height: 1.5;
+}
+.phone-number:hover{
+  color: rgb(8, 40, 175);
+}
+.text-chat{
+  font-size: .9em;
+  line-height: 1.5;
+  position: relative;
+}
+.text-chat_chat{
+  position: absolute;
+  right: 50%;
+}
