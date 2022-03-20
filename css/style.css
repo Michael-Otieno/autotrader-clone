@@ -1,9 +1,8 @@
-
 .slider{
     position: relative;
-    /* margin-top: 20px; */
 
 }
+
 .slider a{
   margin-top: 60px;
   text-decoration: none;
@@ -19,6 +18,7 @@
   font-size: .8rem;
   padding: 1px 9px;
 }
+
 .slider img{
   width: 100%;
   height: 500px;
@@ -39,6 +39,7 @@
   display: inline-block;
   cursor: pointer;
 }
+
 .slider .next_arrow{
     position: absolute;
     top: 50%;
@@ -54,6 +55,7 @@
     display: inline-block;
     cursor: pointer;
 }
+
 .slider .prev_arrow:hover,
 .slider .next_arrow:hover{
   background-color: #816da7;
@@ -84,6 +86,7 @@
   display: inline-block;
   cursor: pointer;
 }
+
 .slider-nav .next_arrow{
   position: absolute;
   z-index: 10;
@@ -105,6 +108,7 @@
 		outline: none!important;
 		cursor: pointer;
 }
+
 .slider-nav .item-slick img{
   height: 78px;
   width: 100%;
@@ -132,18 +136,22 @@
 .detail-header{
   color: rgb(6, 160, 157);
 }
+
 .detail-name{
   color: rgb(49, 60, 83);
 }
+
 .detail-model{
   margin: calc(4px) 0px calc(16px);
   color: rgb(49, 60, 83);
 }
+
 .detail-price{
   color: rgb(218, 25, 25);
   line-height: 1.25;
   font-family: ATVFabriga, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
+
 .detail-save{
   color: rgb(6, 160, 157);
   line-height: 1.25;
@@ -158,9 +166,11 @@
   color: rgb(42, 101, 186);
 
 }
+
 .detail-hr:hover{
   color: rgb(6, 160, 157);
 }
+
 .detail-messageBtn{
   border-radius: 2px;
   cursor: pointer;
@@ -185,6 +195,7 @@
 .detail-car_price{
   color: rgb(102, 102, 102);;
 }
+
 .grey-bg{
   width: 100%;
   height: auto;
@@ -206,32 +217,64 @@
   color:  blue;
   margin-top:10px;
 }
+
 .review-stars{
   color: orange;
 }
+
 .review-num{
   color: black;
   font-weight: 500;
   font-size: 16px;
 
 }
+
 .review-people{
   font-size: 14px;
   font-weight: 300;
 }
+
 .phone-number{
   font-size: .9em;
   line-height: 1.5;
 }
+
 .phone-number:hover{
   color: rgb(8, 40, 175);
 }
+
 .text-chat{
   font-size: .9em;
   line-height: 1.5;
   position: relative;
 }
+
 .text-chat_chat{
   position: absolute;
   right: 50%;
+}
+
+
+/* total price table styles */
+.enquire-header{
+  margin: 0px;
+  padding: 0px calc(4px) calc(16px);
+  color: rgb(49, 60, 83);
+  font-size: 1.25em;
+  line-height: 1.2;
+}
+.enquire-table{
+  /* background-color: #fff; */
+  /* border-top-color:2px solid #0828af; */
+  position: relative;
+  background-color: red;
+
+}
+.enquire-table-header{
+  font-size: 16px;
+  line-height: 1;
+  width: 100%;
+  text-align: center;
+  color: blue;
+  font-weight: 500;
 }
