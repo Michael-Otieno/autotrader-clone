@@ -261,13 +261,16 @@
   padding: 0px calc(4px) calc(16px);
   color: rgb(49, 60, 83);
   font-size: 1.25em;
-  line-height: 1.2;
+  /* line-height: 1.1; */
 }
 .enquire-table{
-  /* background-color: #fff; */
-  /* border-top-color:2px solid #0828af; */
   position: relative;
-  background-color: red;
+  border: 6px solid rgb(247, 247, 245);
+  border-top: 3px solid  #0828af;
+  border-radius: 5px;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  width: 100%;
 
 }
 .enquire-table-header{
@@ -277,4 +280,54 @@
   text-align: center;
   color: blue;
   font-weight: 500;
+}
+
+.enquire-table-add{
+  position: relative;
+}
+
+.enquire-table-add-text{
+  font-size: .875em;
+  line-height: 1.42857;
+  font-weight: 400;
+  color: #666;
+}
+
+.enquire-table-add-icon{
+  position: absolute;
+  right: 0;
+  color: #666;
+  font-size: .875em;
+
+
+}
+
+.enquire-table-pay{
+  position: relative;
+  color: #222b5e;
+  font-size: .875em;
+  line-height: 1.42857;
+  font-weight: 400;
+}
+.enquire-table-pay-price{
+  position: absolute;
+  right: 0;
+}
+
+.enquire-table-link{
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.25s ease-in-out 0s;
+  width: 70%;
+  margin-left: 60px;
+  background-color: transparent;
+  color: rgb(5, 52, 255);
+  box-shadow: rgb(5 52 255) 0px 0px 0px 1px inset;
 }
