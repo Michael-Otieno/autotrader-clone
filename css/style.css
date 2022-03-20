@@ -296,9 +296,8 @@
 .enquire-table-add-icon{
   position: absolute;
   right: 0;
-  color: #666;
+  color: blue;
   font-size: .875em;
-
 
 }
 
@@ -309,6 +308,7 @@
   line-height: 1.42857;
   font-weight: 400;
 }
+
 .enquire-table-pay-price{
   position: absolute;
   right: 0;
@@ -330,4 +330,27 @@
   background-color: transparent;
   color: rgb(5, 52, 255);
   box-shadow: rgb(5 52 255) 0px 0px 0px 1px inset;
+}
+
+.enquire-table-link:hover{
+  background-color: rgb(235, 231, 231);
+}
+
+.overview-header{
+  color: rgb(49, 60, 83);
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-size: 1.625em;
+  line-height: 1.23077;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.overview-sub-header{
+  /* font-size: .875em; */
+  line-height: 1.42857;
+  font-weight: 400;
+}
+.overview-para{
+  color: rgb(102, 102, 102);;
 }
