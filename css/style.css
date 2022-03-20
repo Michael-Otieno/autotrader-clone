@@ -354,6 +354,10 @@
 .overview-para{
   color: rgb(102, 102, 102);;
 }
+.desc{
+  margin-bottom: 25px;
+
+}
 
 .desc-header{
   color: rgb(49, 60, 83);
@@ -366,7 +370,7 @@
 }
 
 .desc-para{
-  font-size: .875em;
+  font-size: 1em;
   color: rgb(102, 102, 102);
   line-height: 1.42857;
   font-weight: 400;
@@ -374,4 +378,13 @@
 .desc-para span{
   color: blue;
   cursor: pointer;
+}
+
+/* specification */
+.spec{
+  position: relative;
+}
+.spec-chevron{
+  position: absolute;
+  right: 0;
 }
