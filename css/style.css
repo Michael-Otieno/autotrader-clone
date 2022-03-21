@@ -439,6 +439,7 @@
   line-height: 1;
   font-weight: 500;
 }
+/* end hatchback styles */
 
 /* part exchange */
 .exchange{
@@ -462,5 +463,27 @@
 }
 
 .exchange p span{
-  color: blue;
+  color: rgb(42, 101, 186);
+  font-weight: 500;
+
+}
+/* end part exchange */
+
+/* buy first car styles */
+.buy h1{
+  font-weight: 500;
+  font-size: 1.65em;
+  line-height: 1;
+  color: rgb(49, 60, 83);
+  margin-block: .8em;
+}
+.buy p{
+  color: rgb(102, 102, 102);
+  margin-bottom: 0px;
+  padding-right: calc(16px);
+  font-size: .9em;
+}
+.buy p span{
+  color: rgb(42, 101, 186);
+  font-weight: 500;
 }
