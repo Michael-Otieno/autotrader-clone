@@ -346,6 +346,7 @@
   text-transform: capitalize;
 }
 
+/* overview */
 .overview-sub-header{
   /* font-size: .875em; */
   line-height: 1.42857;
@@ -354,6 +355,8 @@
 .overview-para{
   color: rgb(102, 102, 102);;
 }
+
+/* description */
 .desc{
   margin-bottom: 25px;
 
@@ -488,3 +491,31 @@
   font-weight: 500;
 }
 /* end buy first car */
+
+/* about seller styles */
+.about-seller h1{
+  font-weight: 500;
+  font-size: 1.65em;
+  /* line-height: 1; */
+  color: rgb(49, 60, 83);
+  /* margin-block: .8em; */
+}
+.about-seller img{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    max-height: 50px;
+    margin: 0px 0px calc(12px);
+}
+.about-seller a{
+  text-decoration: none;
+}
+.about-seller h2{
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  word-break: break-word;
+  font-weight: 400;
+  font-size: 1.25em;
+  color: #0534ff;
+}
