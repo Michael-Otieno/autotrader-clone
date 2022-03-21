@@ -388,3 +388,42 @@
   position: absolute;
   right: 0;
 }
+
+.spec-modal-content{
+  /* width: 800px; */
+  margin: 0 auto;
+}
+.spec-modal-header{
+  position: relative;
+  padding: 35px 0px;
+}
+.spec-modal-header h5{
+  font-size: 1.75em;
+  position: absolute;
+  left: 30%;
+  line-height: 1.1;
+  color: rgb(49, 60, 83);;
+  
+}
+.spec-modal-header .btn-close {
+  padding: 0.5rem 0.5rem !important;
+  margin: -3.5rem -0.5rem 0.5rem auto !important;
+}
+.close {
+  right: 10px;
+}
+
+
+/* Hatchback styles */
+.hatchback{
+  text-decoration: none;
+}
+.hatchback-header{
+  padding-bottom: 8px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.65em;
+  line-height: 1.2;
+  color: rgb(49, 60, 83);
+  margin-block: 1em;
+}
