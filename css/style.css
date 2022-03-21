@@ -418,7 +418,7 @@
 .hatchback{
   text-decoration: none;
 }
-.hatchback-header{
+.hatchback h1{
   /* padding-bottom: 0px; */
   /* margin: 0; */
   font-weight: 500;
@@ -438,4 +438,29 @@
   font-size: .9em;
   line-height: 1;
   font-weight: 500;
+}
+
+/* part exchange */
+.exchange{
+  text-decoration: none;
+
+}
+.exchange h1{
+  font-weight: 500;
+  font-size: 1.65em;
+  line-height: 1;
+  color: rgb(49, 60, 83);
+  margin-block: .8em;
+}
+.exchange p{
+  display: inline-block;
+  flex: 1 1 0px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 0px;
+  padding-right: calc(16px);
+  font-size: .9em;
+}
+
+.exchange p span{
+  color: blue;
 }
