@@ -164,6 +164,7 @@
   align-items: center;
   line-height: 1 !important;
   color: rgb(42, 101, 186);
+  cursor: pointer;
 
 }
 
@@ -263,6 +264,7 @@
   font-size: 1.25em;
   /* line-height: 1.1; */
 }
+
 .enquire-table{
   position: relative;
   border: 6px solid rgb(247, 247, 245);
@@ -273,6 +275,7 @@
   width: 100%;
 
 }
+
 .enquire-table-header{
   font-size: 16px;
   line-height: 1;
@@ -367,7 +370,6 @@
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   font-size: 1.65em;
-  /* line-height: 1.23077; */
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -399,7 +401,8 @@
 }
 
 .btn-close{
-  color: #0534ff;
+  outline: none;
+  border: none;
 }
 
 .modal-car-details h6{
@@ -414,28 +417,93 @@
   font-weight: 400;
 }
 
-
-
-/* .modal-header{
+.modal-header{
   padding: 0.4rem 1rem;
-} */
+}
 
 /* specification */
 .spec{
+  position: relative;
+  cursor: pointer;
+}
+.spec-chevron{
+  position: absolute;
+  right: 0;
+}
+.spec-header{
+  font-size: 1.1em;
+  font-weight: 500;
+  color: rgb(49, 60, 83);
+  margin-left: 12px;
+}
+.spec-img{
+  width:28px;
+}
+.spec-modal{
+  display: none;
+  position: fixed;
+  z-index: 15;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.spec-modal-content{
+  width: 50%; 
+  background-color: #fefefe;
+  margin: auto;
+  border-radius: 3px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.spec-content{
+  margin: auto;
+  padding: .1px 5px;
+  border: 1px solid #888;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  overflow: auto;
+}
+
+.close{
+  color: blue;
+  float: right;
+  font-size: 30px;
+  font-weight: 300;
+
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+/* .spec{
   position: relative;
 }
 .spec-chevron{
   position: absolute;
   right: 0;
 }
-
 .spec-modal-content{
-  /* width: 800px; */
+  /* width: 800px; *
   margin: 0 auto;
 }
 .spec-modal-header{
   position: relative;
-  padding: 35px 0px;
+  padding-top: 35px;
 }
 .spec-modal-header h5{
   font-size: 1.75em;
@@ -451,8 +519,8 @@
 }
 .close {
   right: 10px;
-}
-
+} */
+/* spcification style end */
 
 /* Hatchback styles */
 .hatchback{
