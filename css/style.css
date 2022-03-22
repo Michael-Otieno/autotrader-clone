@@ -373,15 +373,52 @@
 }
 
 .desc-para{
-  font-size: 1em;
+  font-size: .9em;
   color: rgb(102, 102, 102);
-  line-height: 1.42857;
+  line-height: 1.4;
   font-weight: 400;
 }
 .desc-para span{
   color: blue;
   cursor: pointer;
 }
+
+.desc-modal-title{
+  font-size: 1.8em;
+  font-weight: 500;
+  color: rgb(49, 60, 83);
+}
+
+.modal-body p{
+  font-size: .95em;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-inline: 15px;
+
+
+}
+
+.btn-close{
+  color: #0534ff;
+}
+
+.modal-car-details h6{
+  font-size: 1.2em;
+  font-weight: 500;
+  color: rgb(49, 60, 83);
+}
+
+.modal-car-details li{
+  font-size: .95em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+
+/* .modal-header{
+  padding: 0.4rem 1rem;
+} */
 
 /* specification */
 .spec{
@@ -513,9 +550,16 @@
 .about-seller h2{
   display: block;
   margin-top: 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   word-break: break-word;
   font-weight: 400;
   font-size: 1.25em;
   color: #0534ff;
+}
+
+/* .panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+  border: none;
+} */
+.accordion{
+  border: none !important;
 }
