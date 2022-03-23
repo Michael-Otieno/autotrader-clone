@@ -397,7 +397,6 @@
   font-weight: 400;
   padding-inline: 15px;
 
-
 }
 
 .btn-close{
@@ -505,40 +504,99 @@
   font-weight: 500;
   color: rgb(49, 60, 83);
 }
+.cost-col-one{
+  display: flex;
+}
+
+.cost-col-one img{
+  width: 25px;
+}
+.cost-col-one h3{
+  color: rgb(49, 60, 83);
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.cost-compare{
+  font-size: 5em;
+  line-height: 1.42857;
+  font-weight: 400;
+  color: rgb(49, 60, 83);
+}
+
+.modal-body span{
+  font-size: .74em;
+  text-align: center;
+  margin-left: 43px;
+  color: rgb(49, 60, 83);
+  font-weight: 500;
+
+}
+.cost-col-two p{
+  margin-left: 24px;
+  margin-top:.4rem;
+  font-size: .9rem;
+  opacity: .5;
+
+}
+
+.cost-col-three p{
+  margin-left: 24px;
+  margin-top:.4rem;
+  font-size: 1rem;
+  opacity: .5;
+}
+
+.cost-col2-one img{
+  height: 25px;
+}
+
+.cost-col2-two{
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
+.cost-col2-two a{
+  color: #0534ff;
+}
+
+.cost-col2-three{
+  margin-left: 8rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+  opacity: .5;
+}
+
+.cost-row-two{
+  display: flex;
+  align-items: center;
+}
+
+.cost-row-two img{
+  height: 40px;
+
+}                                    
+.cost-row-two h3{
+  color: rgb(49, 60, 83);
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
 
 
 
-/* .spec{
-  position: relative;
-}
-.spec-chevron{
-  position: absolute;
-  right: 0;
-}
-.spec-modal-content{
-  /* width: 800px; *
-  margin: 0 auto;
-}
-.spec-modal-header{
-  position: relative;
-  padding-top: 35px;
-}
-.spec-modal-header h5{
-  font-size: 1.75em;
-  position: absolute;
-  left: 30%;
-  line-height: 1.1;
-  color: rgb(49, 60, 83);;
-  
-}
-.spec-modal-header .btn-close {
-  padding: 0.5rem 0.5rem !important;
-  margin: -3.5rem -0.5rem 0.5rem auto !important;
-}
-.close {
-  right: 10px;
-} */
-/* spcification style end */
+
+
+
+
+
+
+
+
 
 /* Hatchback styles */
 .hatchback{
@@ -636,16 +694,12 @@
 .about-seller h2{
   display: block;
   margin-top: 16px;
-  /* margin-bottom: 16px; */
   word-break: break-word;
   font-weight: 400;
   font-size: 1.25em;
   color: #0534ff;
 }
 
-/* .panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
-  border: none;
-} */
 .accordion{
   border: none !important;
 }
