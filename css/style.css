@@ -187,6 +187,7 @@
   background: rgb(5, 52, 255);
   color: rgb(255, 255, 255);
 }
+
 .detail-messageBtn:hover{
   color: rgb(255, 255, 255);
   background: rgb(60, 92, 233);
@@ -205,6 +206,7 @@
   color: rgb(42, 101, 186);
   margin-bottom: 20px;
 }
+
 .logo{
   width: 78%;
   height: 40px;
@@ -355,6 +357,7 @@
   line-height: 1.42857;
   font-weight: 400;
 }
+
 .overview-para{
   color: rgb(102, 102, 102);;
 }
@@ -380,6 +383,7 @@
   line-height: 1.4;
   font-weight: 400;
 }
+
 .desc-para span{
   color: blue;
   cursor: pointer;
@@ -391,13 +395,13 @@
   color: rgb(49, 60, 83);
 }
 
-.modal-body p{
-  font-size: .95em;
+/* .modal-body p{
+  font-size: .5em;
   line-height: 1.5;
   font-weight: 400;
   padding-inline: 15px;
 
-}
+} */
 
 .btn-close{
   outline: none;
@@ -425,10 +429,12 @@
   position: relative;
   cursor: pointer;
 }
+
 .spec-chevron{
   position: absolute;
   right: 0;
 }
+
 .spec-header{
   font-size: 1.1em;
   font-weight: 500;
@@ -438,6 +444,7 @@
 .spec-img{
   width:28px;
 }
+
 .spec-modal{
   display: none;
   position: fixed;
@@ -451,6 +458,7 @@
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
 }
+
 .spec-modal-content{
   width: 50%; 
   height: 95%;
@@ -479,6 +487,7 @@
   font-weight: 300;
 
 }
+
 .close:hover,
 .close:focus {
   color: #000;
@@ -499,145 +508,147 @@
   justify-content: space-between;
   cursor: pointer;
 }
+
 .cost-modal-text{
   font-size: 1.1em;
   font-weight: 500;
   color: rgb(49, 60, 83);
 }
-.cost-col-one{
-  display: flex;
+
+.cost-header{
+  color: rgb(49, 60, 83);
+
 }
 
-.cost-col-one img{
+.insurance_img img{
   width: 25px;
+
 }
-.cost-col-one h3{
+.insurance_img h3{
   color: rgb(49, 60, 83);
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-block: 0.83em;
+  margin-left: 10px;
   font-size: 1.2em;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: capitalize;
 }
-.cost-compare{
-  font-size: 5em;
+
+.insurance-para{
+  line-height: 1.42857;
+  font-weight: 400;
+  color: rgb(49, 60, 83);
+  margin-left: 40px;  
+
+}
+.one{
+  font-size: .8rem;
+  font-weight: 400;
+  opacity: .8;
+
+}
+
+.two{
+  opacity: .5;
+  font-size: .8rem;
+  font-weight: 400;
+
+}
+.three{
+  opacity: .5;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.get-quote-div{
+  position:relative;
+  overflow: hidden;
+
+}
+
+.get-quote-div img{
+  width:160px;
+  height:40px;
+}
+
+.get-quote-text{
+  position: absolute;
+  right: 20%;
+}
+
+.tax-img img{
+ width: 28px;
+}
+
+.tax-img h3{
+  color: rgb(49, 60, 83);
+  margin-block: 0.83em;
+  margin-left: 10px;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.tax-para{
+  line-height: 1.42857;
+  font-weight: 400;
+  color: rgb(49, 60, 83);
+  margin-left: 40px;  
+}
+
+.tax-cash-km{
   line-height: 1.42857;
   font-weight: 400;
   color: rgb(49, 60, 83);
 }
 
-.modal-body span{
-  font-size: .74em;
-  text-align: center;
-  margin-left: 43px;
+.fuel img{
+  width: 25px;
+  height: 30px;
+
+}
+.fuel h3{
   color: rgb(49, 60, 83);
-  font-weight: 500;
-
-}
-.cost-col-two p{
-  margin-left: 24px;
-  margin-top:.4rem;
-  font-size: .9rem;
-  opacity: .5;
-
-}
-
-.cost-col-three p{
-  margin-left: 24px;
-  margin-top:.4rem;
-  font-size: 1rem;
-  opacity: .5;
-}
-
-.cost-col2-one img{
-  height: 25px;
-}
-
-.cost-col2-two{
-  margin-top: 50px;
-  margin-left: 50px;
-
-}
-.cost-col2-two a{
-  color: #0534ff;
-}
-
-.cost-col2-three{
-  margin-left: 8rem;
-  margin-top: 2rem;
-  font-size: 1rem;
-  opacity: .5;
-}
-
-.cost-row-two{
-  display: flex;
-  align-items: center;
-}
-
-.cost-row-two img{
-  height: 50px;
-
-}                                    
-.cost-row-two h3{
-  color: rgb(49, 60, 83);
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-left: 10px;
   font-size: 1.2em;
-  font-weight: 500;
-  text-transform: capitalize;
-}
-.cost-row-para,.cost-row-para2{
-  margin-left: 30px;
-  margin-top:.4rem;
-  font-size: 1rem;
-  opacity: .5;
-}
-.cost-row-three{
-  text-align: end;
-  margin-top: 60px;
-  color: rgb(49, 60, 83);
-}
-.cost-row-three p{
-  font-weight: 500;
-  font-size: 20px;
-
-}
-
-.cost-row-four{
-  margin-left: 100px;
-
-}
-.cost-row-four p{
-  text-align: center;
-  margin-top:.4rem;
-  font-size: .9rem;
-  opacity: .5;
-
-}
-
-.cost-row-fuel{
-  display: flex;
-}
-
-.cost-row-fuel img{
-  height: 50px;
-}
-
-.cost-row-fuel h3{
-  color: rgb(49, 60, 83);
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  font-size: 1.2em;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: capitalize;
 }
 
+.fuel p{
+  line-height: 1.4;
+  font-weight: 600;
+  font-size: .8rem;
+  color: rgb(49, 60, 83);
+  opacity: .6;
+}
 
+.fuel-mpg{
+  line-height: 1.42857;
+  font-weight: 400;
+  color: rgb(49, 60, 83);
+}
+
+.footer-modal h5{
+  font-weight: 700;
+  color: rgb(49, 60, 83);
+  line-height: 1;
+  font-size: .8rem;
+}
+
+.footer-modal p{
+  font-size: .75em;
+  line-height: 1.33333;
+  font-weight: 400;
+  opacity: .5;
+}
+
+/* running cost end */
 
 /* Hatchback styles */
 .hatchback{
   text-decoration: none;
 }
+
 .hatchback h1{
   /* padding-bottom: 0px; */
   /* margin: 0; */
@@ -647,12 +658,14 @@
   color: rgb(49, 60, 83);
   margin-block: .8em;
 }
+
 .hatchback-para-text{
   color: rgb(49, 60, 83);
   font-size: .9em;
   line-height: 1;
   font-weight: 500;
 }
+
 .hatchback-read-reviews{
   color: rgb(42, 101, 186);
   font-size: .9em;
@@ -666,6 +679,7 @@
   text-decoration: none;
 
 }
+
 .exchange h1{
   font-weight: 500;
   font-size: 1.65em;
@@ -673,6 +687,7 @@
   color: rgb(49, 60, 83);
   margin-block: .8em;
 }
+
 .exchange p{
   display: inline-block;
   flex: 1 1 0px;
@@ -697,12 +712,14 @@
   color: rgb(49, 60, 83);
   margin-block: .8em;
 }
+
 .buy p{
   color: rgb(102, 102, 102);
   margin-bottom: 0px;
   padding-right: calc(16px);
   font-size: .9em;
 }
+
 .buy p span{
   color: rgb(42, 101, 186);
   font-weight: 500;
@@ -717,6 +734,7 @@
   color: rgb(49, 60, 83);
   /* margin-block: .8em; */
 }
+
 .about-seller img{
     display: block;
     width: 100%;
@@ -724,9 +742,11 @@
     max-height: 50px;
     margin: 0px 0px calc(12px);
 }
+
 .about-seller a{
   text-decoration: none;
 }
+
 .about-seller h2{
   display: block;
   margin-top: 16px;

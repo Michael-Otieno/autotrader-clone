@@ -22,7 +22,6 @@
 <body class="continer-fluid-body">
     <div class="container-fluid">
         <div class="row">
-
             <!-- column 1 -->
             <div class="col-md-7 col-md-offset-3 ms-5">
                 <div id="animated-thumbnails" class="slider">
@@ -170,6 +169,7 @@
                         <span class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Read More
                         </span>
+
                         <!-- readMore modal -->
                         <div class="desc-para_read">
                             <!-- Modal -->
@@ -245,7 +245,7 @@
                 </div>
                 <hr>
 
-                <!-- specification -->
+                <!-- specification modal -->
                 <div class="spec">
                     <div class="spec-para">
                         <span class="img-spec">
@@ -261,7 +261,7 @@
                 <!-- specificatio end -->
 
                 <hr>
-                <!-- running costs -->
+                <!-- running costs modal-->
                 <div class="cost">
                     <div class="cost-modal" data-bs-toggle="modal" data-bs-target="#exampleModa">
                         <span class="">
@@ -279,84 +279,70 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 class="text-center" id="exampleModalLabel">Running Costs</h5>
+                                    <h5 class="text-center fw-bolder cost-header" id="exampleModalLabel">Running Costs</h5>
                                     <div class="container-fluid">
-
                                         <!-- modal insurance -->
                                         <div class="row mt-4">
                                             <div class="col">
-                                                <div class="cost-col-one">
-                                                    <img class="mt-2" src="./img/car.svg" alt="">
-                                                    <h3 class="text-center ms-2 mb-4">Insurance</h3>
+                                                <div class="insurance_img d-flex p-2 justify-content-start">
+                                                    <img class="" src="./img/car.svg" alt="">
+                                                    <h3 class="">Insurance</h3>
                                                 </div>
-                                                <div class="cost-col-two ">
-                                                    <span>Compare quotes for this car</span>
-                                                    <p class="ms-4">Annual insurance cost</p>
-                                                </div>
-                                                <div class="cost-col-three">
-                                                    <p>Insurance Group</p>
-                                                </div>
+                                                <p class="insurance-para one">Compare quotes for this car</p>
+                                                <p class="insurance-para two">Annual insurance cost</p>
+                                                <p class="insurance-para three">Insurance Group</p>
                                             </div>
-                                            <div class="col">
-                                                <div class="cost-col2-one">
-                                                    <img class="mt-1" src="./img/fpa_logo.gif" alt="">
-                                                </div>
-                                                <div class="cost-col2-two">
-                                                    <a href="">Get a quote</a>
-                                                </div>
-                                                <div class="cost-col2-three">
-                                                    <p>05A</p>
-                                                </div>
+
+                                            <div class="col-auto get-quote-div">
+                                                    <img class="mt-1" src="./img/fpa_logo.gif" alt=""><br>
+                                                    <div class="get-quote-text pt-5">
+                                                        <a href="">Get a quote</a><br>
+                                                        <p class="ps-5 pt-4">05A</p>
+                                                    </div>
                                             </div>
                                         </div>
                                         <hr>
-                                        <!-- modal row 2 -->
+                                        <!-- modal tax -->
                                         <div class="row">
                                             <div class="col">
-                                                <div class="cost-row-two">
-                                                    <img class="mt-1" src="./img/tax-payment.png" alt="">
-                                                    <h3 class="text-center mb- ms-1">Tax</h3>
+                                                <div class="tax-img d-flex p-2 justify-content-start">
+                                                    <img src="./img/tax-payment.png" alt="">
+                                                    <h3 class="text-center">Tax</h3>
                                                 </div>
-                                                <div>
-                                                    <p class="cost-row-para">Annual Tax</p>
-                                                    <p class="cost-row-para2">CO<small>2</small>Emissions</p>
-                                                </div>
+                                                <p class="tax-para three">Annual Tax</p>
+                                                <p class="tax-para three">CO<small>2</small>Emissions</p>
                                             </div>
-                                            <div class="col">
-                                                <div class="cost-row-three">
-                                                    <p>
-                                                        <i class="fas fa-euro-sign"></i>
-                                                        160
-                                                    </p>
-                                                </div>
-                                                <div class="cost-row-four">
-                                                    <p>
-                                                        110 g/km
-                                                    </p>
-                                                </div>
+
+                                            <div class="col-auto mt-5 pt-3 tax-cash-km">
+                                                <p class="fw-bold ps-4"><i class="fas fa-euro-sign"></i>160</p>
+                                                <p>110 g/km</p>
                                             </div>
                                         </div>
                                         <hr>
                                         <!-- modal row 3 -->
                                         <div class="row">
-                                            <div class="col">
-                                                <div class="cost-row-fuel">
-                                                    <img class="mt-1" src="./img/fuel-1.png" alt="">
-                                                    <h3 class="text-center ms-2">Fuel</h3>
-                                                </div>
-                                                <div>
-                                                    <p class="cost-row-para">Combined</p>
+                                            <div class="col d-flex ms-2 justify-content-start fuel">
+                                                <img src="./img/fuel-1.png" alt="">
+                                                <div class="mt-1">
+                                                    <h3>Fuel</h3>
+                                                    <p class="pt-3 ps-2">Combined</p>
                                                 </div>
                                             </div>
-                                            <div class="col">
-                                                <div class="cost-row-four">
-                                                    <p>
-                                                        58.90 mpg
-                                                    </p>
-                                                </div>
+                                            <div class="col-auto mt-5 pt-3 fuel-mpg">
+                                                <p>58.90 mpg</p>
                                             </div>
                                         </div>
                                         <hr>
+
+                                        <div class="footer-modal">
+                                            <h5>Please Note</h5>
+                                            <p>
+                                                The data displayed above details the usual specification of the most recent model of this vehicle. It is not the exact data for the actual vehicle being offered for sale and data for older models may vary slightly. We recommend that you always check the details with the seller prior to purchase.
+                                            </p>
+                                            <p>
+                                                Auto Trader Limited, or its data supplier, will not accept liability for any information provided.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
