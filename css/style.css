@@ -353,7 +353,6 @@
 
 /* overview */
 .overview-sub-header{
-  /* font-size: .875em; */
   line-height: 1.42857;
   font-weight: 400;
 }
@@ -394,14 +393,6 @@
   font-weight: 500;
   color: rgb(49, 60, 83);
 }
-
-/* .modal-body p{
-  font-size: .5em;
-  line-height: 1.5;
-  font-weight: 400;
-  padding-inline: 15px;
-
-} */
 
 .btn-close{
   outline: none;
@@ -524,6 +515,7 @@
   width: 25px;
 
 }
+
 .insurance_img h3{
   color: rgb(49, 60, 83);
   margin-block: 0.83em;
@@ -563,11 +555,6 @@
   position:relative;
   overflow: hidden;
 
-}
-
-.get-quote-div img{
-  width:160px;
-  height:40px;
 }
 
 .get-quote-text{
@@ -644,14 +631,145 @@
 
 /* running cost end */
 
+/* insurance */
+.insurance{
+  position: relative;
+}
+.insurance-txt{
+  font-size: 1.1em;
+  font-weight: 500;
+  color: rgb(49, 60, 83);
+}
+
+.insurance-quote{
+  position: absolute;
+  right: 0;
+  color: #0828af;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1rem;
+}
+/* insurance end */
+
+/* accordions */
+.accordion-{
+  width: 100%;
+  margin-block: 15px;
+}
+
+.accordion- p{
+    font-size: 1.18rem;
+    margin-block:0px;
+    padding: 16px 16px 16px 14px;
+    border-top:1px solid lightgrey;
+    outline: none;
+    position: relative;
+    width: 100%;
+    font-weight: 400;
+    opacity: .8;
+    transition: border-color .25s ease-in-out;
+    cursor:pointer;
+    border-left: 4px solid transparent;
+    
+
+}
+
+.accordion- p:hover{
+  border-left: 4px solid blue;
+}
+
+
+.accordion- div{
+  display:none;
+  padding:15px;
+  line-height:20px;
+  max-height: rem(46);
+  transition: max-height 5s ease-in;
+}
+
+.accordion-content{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  padding-block: 30rem;
+  max-height: rem(800);
+  transition: max-height 5s ease-in;
+}
+
+.accordion-content li{
+  list-style: none;
+  line-height: 1.8;
+  padding: 8px;
+  
+}
+.accordion-content span{
+  font-size: .8em;
+  line-height: 1.8;
+  color: #666;
+  padding-left: 18px;
+}
+.accordion-content button{
+  outline: none;
+  border: 1px solid #0534ff;
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: white;
+  color: #0534ff;
+
+}
+.accordion-content_2{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  padding-block: 30rem;
+  max-height: rem(800);
+  transition: max-height 5s ease-in;
+}
+.accordion-content_2-ul li{
+  list-style: none;
+  padding: 8px;
+  line-height: 1.8;
+  font-size: .875em;
+  color: #666;
+
+}
+
+.accordion-content-covid li{
+  padding: 2px;
+  line-height: 2;
+  font-size: .875em;
+  color: #666;
+}
+
+.accordion-content-services{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  padding-block: 30rem;
+  max-height: rem(800);
+  transition: max-height 5s ease-in;
+
+
+}
+#accordionhead_4{
+  border-bottom:1px solid lightgrey;
+
+}
+
+/* accordion end */
+
+
+
+
 /* Hatchback styles */
 .hatchback{
   text-decoration: none;
 }
 
 .hatchback h1{
-  /* padding-bottom: 0px; */
-  /* margin: 0; */
   font-weight: 500;
   font-size: 1.65em;
   line-height: 1;
