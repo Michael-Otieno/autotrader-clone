@@ -988,11 +988,42 @@
   line-height: 16px;
   color: #666666;
 }
-
-
-
 .back-to-top {
   font-size: 14px;
   line-height: 20px;
   color: #222b5e;
+}
+/* advert styles end */
+
+
+/* footer styles */
+
+.footer{
+  padding:20px 40px;
+}
+
+.footer-trader ul{
+  line-height: 1;
+  font-size: 12px;
+  text-align: left;
+
+}
+
+.footer-trader li{
+  list-style: none;
+  line-height: 3;
+
+}
+
+.footer-trader a{
+  text-decoration: none;
+  color: #666666;
+  font-size: 12px;
+  /* font-weight: 500; */
+}
+.footer-trader-header a{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #242D3D;
 }
