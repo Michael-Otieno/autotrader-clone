@@ -1,10 +1,10 @@
 # autotrader-clone
 
-This is a solution 
+This is a website to [auto trader](https://www.autotrader.co.uk/classified/advert/new/202108126154693?journey=deals&sort=price-asc&advertising-location=at_cars&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&page=1) car details page.
 ## Table of contents
 
 - [Overview](#overview)
-  - [User stories](#User stories)
+  - [User stories](#User-stories)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -18,12 +18,12 @@ This is a solution
 
 ## Overview
 
-### User Stories
+### User-Stories
 
 Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
-- V
+- 
 
 
 ### Screenshot
