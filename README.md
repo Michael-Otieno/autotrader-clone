@@ -4,7 +4,7 @@ This is a website to [auto trader](https://www.autotrader.co.uk/classified/adver
 ## Table of contents
 
 - [Overview](#overview)
-  - [User stories](#User-stories)
+  - [User-stories](#user-stories)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -33,10 +33,10 @@ Users should be able to:
 
 ### Links
 
-- Original Site URL: [Add solution URL here](https://www.autotrader.co.uk/classified/advert/new/202108126154693?journey=deals&sort=price-asc&advertising-location=at_cars&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&page=1)
-- My Live Site URL: [Add live site URL here](https://app.netlify.com/sites/charming-hotteok-7a9777)
+- Auto Trader Company Site URL: [Add solution URL here](https://www.autotrader.co.uk/classified/advert/new/202108126154693?journey=deals&sort=price-asc&advertising-location=at_cars&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&page=1)
+- The Page Site Clone URL: [Add live site URL here](https://app.netlify.com/sites/charming-hotteok-7a9777)
 
-## My process
+<!-- ## My process -->
 
 ### Built with
 
