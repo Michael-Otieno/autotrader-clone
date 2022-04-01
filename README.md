@@ -4,9 +4,9 @@ This is a website to [auto trader](https://www.autotrader.co.uk/classified/adver
 
 ## Screenshort
 
-[<img src="/screenshort5.png" alt="image" width="500px" height="400px">](https://charming-hotteok-7a9777.netlify.app/)
-[<img src="/screenshort4.png" alt="image" width="500px" height="400px">](https://charming-hotteok-7a9777.netlify.app/)
-
+[<img src="/screenshort5.png" alt="image" width="500px" height="500px">](https://charming-hotteok-7a9777.netlify.app/)
+<!-- [<img src="/screenshort4.png" alt="image" width="250px" height="250px">](https://charming-hotteok-7a9777.netlify.app/)
+ -->
 
 ## Table of contents
 
