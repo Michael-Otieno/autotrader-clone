@@ -5,7 +5,6 @@ This is a website to [auto trader](https://www.autotrader.co.uk/classified/adver
 
 - [Overview](#overview)
   - [User-stories](#user-stories)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -23,12 +22,6 @@ This is a website to [auto trader](https://www.autotrader.co.uk/classified/adver
 Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
-- 
-
-
-### Screenshot
-
-![](./screenshot.jpg)
 
 
 ### Links
