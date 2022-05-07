@@ -1,24 +1,31 @@
-$('.slider').slick({
+$('#animated-thumbnails, .slider').slick({
     slideToShow:1,
     slideToScroll:1,
+    arrows: true,
+    speed: 300,
+    lazyLoad: 'ondemand',
     prevArrow:'<span class="prev_arrow"><i class="fa fa-chevron-left"></i></span>',
     nextArrow:'<span class="next_arrow"><i class="fa fa-chevron-right"></i></span>',
     adaptiveHeight:true,
     asNavFor:'.slider-nav',
     cssEase: 'ease-out',
+    fade: true,
 
 })
 
 $('.slider-nav').slick({
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow:'<span class="prev_arrow"><i class="fa fa-chevron-left"></i></span>',
     nextArrow:'<span class="next_arrow"><i class="fa fa-chevron-right"></i></span>',
-    // asNavFor: '.slider',
+    asNavFor: '.slider',
     dots:false,
     centerMode: false,
     focusOnSelect: true,
     variableWidth:true,
+    centerPadding: '0px',
+    speed: 200,
+    draggable: true,
   });
       
   $.fancybox.defaults.buttons = [ 
