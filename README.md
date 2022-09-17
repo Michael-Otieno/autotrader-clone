@@ -8,37 +8,14 @@ This is a website to [auto trader](https://www.autotrader.co.uk/classified/adver
 <!-- [<img src="/screenshort4.png" alt="image" width="250px" height="250px">](https://charming-hotteok-7a9777.netlify.app/)
  -->
 
-## Table of contents
 
-- [Overview](#overview)
-  - [User-stories](#user-stories)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-
-## Overview
-
-### User-Stories
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-
-
-### Links
+## Links
 
 - Auto Trader Company Site URL: [Add solution URL here](https://www.autotrader.co.uk/classified/advert/new/202108126154693?journey=deals&sort=price-asc&advertising-location=at_cars&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&page=1)
 - The Page Site Clone URL: [Add live site URL here](https://app.netlify.com/sites/charming-hotteok-7a9777)
 
-<!-- ## My process -->
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - Css
@@ -47,31 +24,36 @@ Users should be able to:
 - [Slick](https://kenwheeler.github.io/slick/) - jQuery plugin
 - [Fancybox](http://fancybox.net/) - jQuery plugin
 
+## Runnig the project
 
-### What I learned
-
-- [Slick](https://kenwheeler.github.io/slick/) - a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more!
-- [Fancybox](http://fancybox.net/) - a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page.
-                                     It was built using the jQuery library.
+- git clone https://github.com/Michael-Otieno/autotrader-clone/
+- Run the project from your text editor
 
 
-### Continued development
+## Continued development
 
 - Make it responsive
-- Click on small image to select the large image on cars
 
 
-### Useful resources
+## Useful resources
 
 - [How to use Fancybox](http://fancybox.net/howto) - How to use fancybox
 - [How to use Slick](https://kenwheeler.github.io/slick/) - How to use slick
 
+## Further help
+- Feel free to fork and initiate changes that may improve the site.
+- For any assistances, contact m.otieno205@gmail.com.
 
-## Author
+## MIT Licence
+Copyright (c) 2020 Michael Otieno
 
-- Website - [Michael Otieno](https://otieno-mike.netlify.app/dist/index.html)
-- Twitter - [@mike_can_code](https://www.twitter.com/mike_can_code)
-- Linkedin - [Michael Otieno](https://www.linkedin.com/in/michael-oduor-otieno/)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-<!-- ## Acknowledgments -->
+
